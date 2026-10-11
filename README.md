@@ -1,42 +1,29 @@
-# Python Mini Projects
+# Rock Paper Scissors Game
 
-This repository contains three beginner Python mini-projects created while learning Python fundamentals.
+A simple command-line Rock, Paper, Scissor game where the computer randomly chooses a move.
 
-## Projects
-
-### 1. Digital Clock
-A desktop digital clock that displays the current time and date using Tkinter.
-- **Folder:** [`01-digital-clock/`](01-digital-clock/)
-- **Run:** `python "digital_clock.py"`
-
-### 2. Rent Calculator
-Calculates the shared rent, food, and electricity expenses per person.
-- **Folder:** [`02-rent-calculator/`](02-rent-calculator/)
-- **Run:** `python "rent calculator.py"`
-
-### 3. Rock Paper Scissors Game
-A command-line game in which the computer randomly chooses Rock, Paper, or Scissor.
-- **Folder:** [`03-rock-paper-scissors/`](03-rock-paper-scissors/)
-- **Run:** `python rock_paper_scissor_game.py`
+## How it works
+1. The user enters Rock, Paper, or Scissor.
+2. The computer chooses randomly from the available options.
+3. The program compares both choices and prints the result.
 
 ## Requirements
 - Python 3
-- Tkinter for the Digital Clock (usually included with Python)
-- No third-party libraries are required for the other two projects
+- No third-party libraries required
 
-## Skills Practiced
-- Python fundamentals
-- User input and output
-- Variables and arithmetic
+## How to run
+Open a terminal in this folder and run:
+
+```bash
+python rock_paper_scissor_game.py
+```
+
+## Concepts used
+- `random` module
+- Lists
+- User input
 - Conditional statements
-- Random selection
-- Basic GUI development with Tkinter
-- Time and date formatting
+- Comparing choices
 
-## Running a Project
-1. Install Python 3.
-2. Open the folder for the project you want to run.
-3. Run the command listed in that project's section above.
-
-## Note
-The original source code files are preserved as uploaded. Each project folder contains a README with instructions and an overview.
+## Source code
+The original source code is included in `rock_paper_scissor_game.py` and has not been changed.
